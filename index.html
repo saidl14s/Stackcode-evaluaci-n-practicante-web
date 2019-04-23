@@ -192,8 +192,42 @@
             </div>
         </div>
     </div>
-
     <!--end partners-->
+
+    <!--contact-->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-md-0">
+                    <h2>Contáctanos</h2>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 offset-md-1 col-12">
+                    <div class="form-group">
+                        <label for="txtName">Nombre</label>
+                        <input type="text" class="form-control" name="txtName" id="txtName" placeholder="José Llamas">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail">Correo electrónico</label>
+                        <input type="text" class="form-control" name="txtEmail" id="txtEmail" placeholder="hola@hiit.com">
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="form-group">
+                        <label for="txtMessage">Mensaje</label>
+                        <textarea class="form-control" id="txtMessage" rows="5" placeholder="Escribe tú mensaje aquí"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12">
+                    <br>
+                    <button type="button" onclick="sendMail();" class="btn btn-orange">Enviar</button>
+                    <span id="log"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--footer-->
     <footer>
@@ -222,9 +256,12 @@
 
 
     <!-- jQuery, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>-->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+    <script src="main.js"></script>
 
 </body>
 
